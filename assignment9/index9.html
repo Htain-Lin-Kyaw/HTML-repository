@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>assignment9</title>
+<style>
+	
+	*{
+		box-sizing:border-box;
+	}
+	.h1{
+		font-size:50px;
+		color:gray;
+		text-decoration:underline;
+	}
+	.h3{
+		font-size:20px;
+		background-color:red;
+		color:black;
+		width:70px;
+		text-shadow:2px 2px 4px #FF8C00;
+		border:1px solid black;
+		text-align:center;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.h2{
+		font-size:30px;
+		color:#008B8B;
+	}
+	.h4{
+		border:2px solid black;
+		background-color:white;
+		color:black;
+		text-align:center;
+		display:flex;
+		justify-content:center;
+		width:150px;
+	}
+	.column1{
+		padding:20px;
+		float:left;
+		width:23%;
+		height:600px;
+		background-color:#008080;
+		text-color:white;
+	}
+	.column2{
+		padding:20px;
+		float:left;
+		width:73%;
+		height:100%;
+		background-color:white;
+	}
+	.row:after {
+		content:"";
+		display:table;
+		clear:both;
+	}
+	a{
+		color:white;
+	}
+	a:hover{
+		color:#FFD700;
+	}
+	p{
+		color:black;
+	}
+	ul{
+		list-style-type:circle;
+	}
+	button{
+		background-color:black;
+		color:white;
+	}
+	label{
+		text-align:center;
+		color:white;
+	}
+	.center{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+</style>
+</head>
+<body>
+<div class="row">
+	<div class="column1">
+		<div class="center"><h3 class="h3">BUY A<br>BOOK<h3></div>
+		<div class="center"><h4 class="h4">amazon.com</h4></div>
+		<div class="center"><a href="#htmlbook">HTML BOOK</a></div><br>
+		<div class="center"><label for="search">Search this site:</label></div>
+		<div class="center"><input type="text" id="search" name="search" width="100px"></div>
+		<div class="center"><button>SEARCH</button></div>
+		<div class="center"><a href="#site" style="text-align:center;">Site Map</a></div><br>
+		<a href="#home">Home Page</a><br><br>
+		<div style="color:yellow;">Main Tutorials:</div>
+		<a href="#beginnerinfo">Beginner info</a><br>
+		<a href="#basichtml">Basic HTML Tutorial</a><br>
+		<a href="#tabletutor">Table Tutor</a><br>
+		<a href="#formtutor">Form Tutor</a><br>
+		<a href=#framestutor">Frames Tutor</a><br><br>
+		<a href=#webtutor">Web Tutor v4.0</a><br>
+		<a href="#directdownload">Direct Download</a><br>
+	</div>
+	<div class="column2">
+		<h2 class="h2">Professional</h2>
+		<h1 class="h1">Web Design</h1>
+		<h3 style="color:#008B8B; text-align:right;"><i>& HTML Tutorials</i></h3>
+		<p>Way back when, we thougth that being on'the Web' was a novelty.</p>
+		<p>Not any more! The internet is transforming how we communicate and how we do business. You think television was big?? Ain't nuthin compared to this.</p>
+		<p>why should you get online? What opportunities are here now? Well for starters</p>
+		<ul>
+			<li>Increased exposure and name recognition</li>
+			<li>Hyper-develop niche markets... and maybe even develop a few new ones!</li>
+			<li>Online catalogs and order forms. Sell your products and services directly over the net.</li>
+			<li>Expand your market worldwide... people in Germany need widgets too!</li>
+			<li>Lead generation.</li>
+			<li>Customer service & support.</li>
+		</ul>
+		<p>What does it all cost? Not a whole heck of a lot.</p>
+		<p>If you have been thinking about hiring a Web Page Designer, then give us a little information and got the ball rolling.</p>
+	</div>
+</div>
+</body>
+</html>
