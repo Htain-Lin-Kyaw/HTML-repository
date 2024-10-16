@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>assignment4</title>
+<style>
+*{
+ box-sizing:border-box;
+}
+p{
+ background-color:#A9A9A9;
+ color:red;
+ font-weight:bold;
+ font-size:30px;
+}
+#header{
+ width: 100%;
+ height:150px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+} 
+.column{
+ padding:10px;
+ height:300px;
+
+}
+.row:after{
+ content: "";
+ display:table;
+ clear:both;
+}
+.column.sidebar{
+ float:left;
+ width:23%;
+ height:300px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+.column.main{
+ float:right;
+ width:73%;
+ height:300px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+#footer{
+ width:100%;
+ height:100px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+</style>
+</head>
+<body>
+<p id="header">Header</p>
+<div class="row">
+ <p class="column sidebar">Sidebar</p>
+ <p class="column main">Main Content</p>
+</div>
+<p id="footer">Footer</p>
+</body>
+</html>
